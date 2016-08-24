@@ -1,0 +1,22 @@
+Included files are WebServer, WebServerMaster and WebServerThread. A sample of how to run the program is below.
+
+
+Sample run:
+
+Step 1: Server Terminal: 
+
+(precise)sircinnamon@localhost:~/Classes/441/A2$ java Tester
+Server starting...
+Server started. Type "quit" to close.
+
+Step 2: Client Terminal: (WebClient is just a program that sends a hardcoded get request)
+(precise)sircinnamon@localhost:~/Classes/441/A2$ java WebClient localhost 2225
+Connected to 127.0.0.1 on port 2225
+GET testfile
+
+HTTP/1.0 200 OK
+Content Length: 39
+Connection: Closed
+
+This is the information within testfile
+
